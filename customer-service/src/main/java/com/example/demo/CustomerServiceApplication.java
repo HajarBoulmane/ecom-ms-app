@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 @EnableConfigurationProperties(CustomerConfigParams.class)
-public class CustomerServiceApplication {
+public class  CustomerServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CustomerServiceApplication.class, args);
