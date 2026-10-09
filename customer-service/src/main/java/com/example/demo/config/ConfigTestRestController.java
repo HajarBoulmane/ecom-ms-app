@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Map;
 
 @RestController
-
+@RefreshScope
 public class ConfigTestRestController {
 
     @Autowired
